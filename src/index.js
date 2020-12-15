@@ -16,6 +16,7 @@ const baseStyle = {
   color: "#bdbdbd",
   outline: "none",
   transition: "border .24s ease-in-out",
+  marginTop: "3rem",
 };
 
 const activeStyle = {
@@ -59,6 +60,7 @@ function StyledDropzone(props) {
     <div className="container">
       <div {...getRootProps({ style })}>
         <input {...getInputProps()} />
+
         <p>Drag and drop files / click to browse for files</p>
       </div>
       <aside>
