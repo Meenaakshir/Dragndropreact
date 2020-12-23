@@ -58,6 +58,7 @@ function StyledDropzone(props) {
 
   return (
     <div className="container">
+      <p>Student Assignment upload</p>
       <div {...getRootProps({ style })}>
         <input {...getInputProps()} />
 
